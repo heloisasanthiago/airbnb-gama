@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="UTF-8">
+
+        <title>AirBnB Gama</title>
+
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="shortcut icon" sizes="76x76" type="image/x-icon" href="https://a0.muscache.com/airbnb/static/logotype_favicon-21cc8e6c6a2cca43f061d2dcabdf6e58.ico">
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <div id="header">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/airbnb_logo.png" alt="Logo Gama Airbnb">
+                        </a>
+                    </div>
+                    <div id="search">
+                        <label for="location">Localização</label>
+                        <input
+                                class="location"
+                                type="text"
+                                name="location"
+                                id="location"
+                                placeholder="Localização"
+                        />
+                        <input type="date" name="date" class="date" />
+                        <input type="date" name="date" class="date" />
+                        <button id="search-button" class="search-button" type="submit">
+                            <span class="icon-search" data-feather="search"></span>
+                        </button>
+                    </div>
+                    <ul class="menu">
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-globe"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">Ajuda</a>
+                        </li>
+                        <li>
+                            <a href="#">Cadastre-se</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <div id="place">
+                <p>Mais de 500 acomodações</p>
+                <h1>Acomodações</h1>
+                <div id="filters">
+                    <a>Flexibilidade de cancelamento</a>
+                    <a>Tipo de lugar</a>
+                    <a>Preço</a>
+                    <a>Reserva Instantânea</a>
+                    <a>Mais filtros</a>
+                </div>
+            </div>
+            <div id="cards"></div>
+        </div>
+        <div id="footer-content">
+            <div id="footer">
+                <div class="more">
+                    <div><strong>SOBRE</strong></div>
+                    <div><a href="#">Diversidade e pertencimento</a></div>
+                    <div><a href="#">Acessibilidade</a></div>
+                    <div><a href="#">Confiança e segurança</a></div>
+                    <div><a href="#">Airbnb Citizen</a></div>
+                    <div><a href="#">Newsroom</a></div>
+                </div>
+                <div class="more">
+                    <div><strong>COMUNIDADE</strong></div>
+                    <div><a href="#">Airbnb Magazine</a></div>
+                    <div><a href="#">Airbnb for Work</a></div>
+                    <div><a href="#">Convide amigos</a></div>
+                    <div><a href="#">Carreiras</a></div>
+                </div>
+                <div class="more">
+                    <div><strong>ANFITRIÃO</strong></div>
+                    <div><a href="#">Hospede em sua acomodação</a></div>
+                    <div><a href="#">Ofereça uma experiência</a></div>
+                    <div><a href="#">Hospedagem responsável</a></div>
+                    <div><a href="#">Open Homes</a></div>
+                    <div><a href="#">Olimpíadas</a></div>
+                    <div><a href="#">Central de Recursos</a></div>
+                </div>
+                <div class="more">
+                    <div><strong>ATENDIMENTO</strong></div>
+                    <div><a href="#">Central de Ajuda</a></div>
+                    <div><a href="#">Atendimento ao Bairro</a></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./js/index.js"></script>
+    </body>
+</html>
